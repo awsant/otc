@@ -35,7 +35,7 @@ function aws_wait_create_stack() {
 
 
 function aws_create_stack_Compute() {
-  aws_create_stack $COMPUTE_STACK "file://./all1.yaml" "--capabilities CAPABILITY_NAMED_IAM"
+  aws_create_stack $COMPUTE_STACK "file://./compute-stack.yaml" "--capabilities CAPABILITY_NAMED_IAM"
 }
 
 
